@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap");
+
+body {
+  background-color: #011627;
+  font-family: "Source Code Pro", "Courier New", "Courier", "monospace";
+  font-size: 18px;
+  text-align: left;
+  font-weight: bold;
+  margin: 20px;
+}
+
+div {
+  margin: 0px 0px 10px;
+}
+
+.homepage {
+  color: #fd8a25;
+  padding: 0px;
+  margin: 0px 0px 40px;
+}
+
+.block {
+  color: #77dfd1;
+  margin: 30px;
+}
+
+.title {
+  color: #f4d581;
+}
+
+.entry {
+  padding: 0px 0px 0px 50px;
+}
+
+a {
+  text-decoration: none;
+  color: #f4d581;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #ff783e;
+}
+
