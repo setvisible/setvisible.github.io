@@ -1,7 +1,6 @@
 ---
-layout: post
 title: "WebExtensions: Introducing Web Extension"
-date:   2019-12-05 06:06:30 +0100
+date: 2019-12-05 06:06:30 +0100
 categories:
   - WebExtensions
 tags:
@@ -12,13 +11,14 @@ tags:
   - launcher
   - chrome
   - firefox
-excerpt_separator:  <!--more-->
+excerpt_separator: <!--more-->
 ---
 
 *ArrowDL* is now compatible with Chrome and Firefox!
 
 The add-on *DownRightNow* sends data from your web browser to the standalone application *ArrowDL*.
 
+<!--more-->
 
 ### Install the Web Browser Add-on (WebExtensions)
 
@@ -32,5 +32,3 @@ The add-on *DownRightNow* sends data from your web browser to the standalone app
 2. Go to the install directory of the Application (*ArrowDL*), and follow the instructions in `ReadMe.txt`
 
 3. Then, go to "*Options*" in the WebExtension interface in your Web Browser. It should tell you if it's correctly connected with the Application. 
-
-

@@ -1,19 +1,24 @@
 ---
-layout: post
 title: "Urls Batch Edition"
-date:   2020-03-30 23:45:12 +0100
+date: 2020-03-30 23:45:12 +0100
+categories:
+  - Tips
 tags:
   - url
   - batch
   - edit
   - smart editor
-excerpt_separator:  <!--more-->
+introduction: |
+  A Smart Editor for massive Urls edition:
+  ArrowDL provides now a tool to modify the URL for a list of downloads.
+excerpt_separator: <!--more-->
 ---
-
 
 ## A Smart Editor for massive Urls edition!
 
 *ArrowDL* version 1.7.4 provides a tool to modify the URL for a list of downloads.
+
+<!--more-->
 
 To do it, select the downloads in the queue.
 

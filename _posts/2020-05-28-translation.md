@@ -1,7 +1,6 @@
 ---
-layout: post
 title: "Translations"
-date:   2020-05-28 19:31:31 +0100
+date: 2020-05-28 19:31:31 +0100
 categories:
   - Translations
 tags:
@@ -10,7 +9,7 @@ tags:
   - internationalization
   - i18n
   - localization
-excerpt_separator:  <!--more-->
+excerpt_separator: <!--more-->
 ---
 
 **ArrowDL** is designed to be usable by everyone including drunk people and 10 years old little guys.
@@ -21,10 +20,11 @@ Like many other open-source projects, we are crowd-sourcing the translation effo
 so if you want to help people in your community to be able to play with it in your language,
 please consider joining the translation effort.
 
+<!--more-->
+
 Look at the [translation project page](https://www.transifex.com/arrowdl/arrowdl/) on Transifex.
 
-
-#### Current translations
+## Current translations
 
 A dozen of languages have been already inserted.
 
@@ -33,12 +33,12 @@ I read on a random [blog](https://phrase.com/blog/posts/mobile-how-to-get-profes
 Dunno if it's true. Anyway, it's the beginning.
 
 
-#### Want a new translation?
+## Want a new translation?
 
 If you want a new language, just create an [issue](https://github.com/setvisible/ArrowDL/issues) on Github.
 
 
-#### Current status
+## Current status
 
 Cool fact: Transifex gives a couple of widgets to observe the translation effort.
 
@@ -51,7 +51,6 @@ _List of supported languages and translation efforts:_
 
 [Translations effort page](https://www.transifex.com/arrowdl/arrowdl/widgets/)
 
-
 _Detailed Chart:_
 
 <section>
@@ -59,6 +58,3 @@ _Detailed Chart:_
 <script type="text/javascript" src="https://www.transifex.com/_/charts/js/arrowdl/arrowdl/inc_js/main-application/"></script>
 <div id="txchart-arrowdl-main-application">Loading chart...</div>
 </section>
-
-
----

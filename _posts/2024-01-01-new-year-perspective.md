@@ -1,10 +1,12 @@
 ---
-layout: post
+lang: en
 title: "Happy New Year 2024!"
-date:   2024-01-01 12:18:19 +0100
+date: 2024-01-01 12:18:19 +0100
+categories:
+  - Releases
 tags:
   - project
-excerpt_separator:  <!--more-->
+excerpt_separator: <!--more-->
 ---
 
 Thanks to all the upgrades in 2023, 2024 looks brighter!
@@ -14,5 +16,7 @@ Qt6 offers better widgets,
 OpenSSL 3.0 offers better security,
 and LibTorrent offers better functions.
 *ArrowDL* will be improved a lot, for sure :)
+
+<!--more-->
 
 **Happy New Year 2024! :)**

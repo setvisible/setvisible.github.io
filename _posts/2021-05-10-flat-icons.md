@@ -1,7 +1,6 @@
 ---
-layout: post
 title: "Flat Design Theme"
-date:   2021-05-10 16:10:43 +0100
+date: 2021-05-10 16:10:43 +0100
 categories:
   - Tips
 tags:
@@ -10,7 +9,7 @@ tags:
   - theme
   - style
   - user interface
-excerpt_separator:  <!--more-->
+excerpt_separator: <!--more-->
 ---
 
 ## New Feature: Flat Design icons and platform style choice
@@ -21,6 +20,7 @@ excerpt_separator:  <!--more-->
 
 To try it, go to **Preferences** > **Interface** > **Style and Icons**.
 
+<!--more-->
 
 ### Icons
 
@@ -48,6 +48,3 @@ Windows Vista, 98 and Fusion styles:
 ![Windows 98](/assets/images/2.4/platform_style_2.png)
 
 ![Fusion](/assets/images/2.4/platform_style_3.png)
-
-
----

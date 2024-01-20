@@ -1,19 +1,19 @@
 ---
-layout: post
 title: "Proxy Server"
-date:   2020-08-11 21:21:21 +0100
+date: 2020-08-11 21:21:21 +0100
 categories:
   - Tips
 tags:
   - proxy
   - privacy
-excerpt_separator:  <!--more-->
+excerpt_separator: <!--more-->
 ---
 
 **ArrowDL** can use a proxy server now.
 
 A **proxy server** sits between your computer and the internet. Acting as a bridge between **ArrowDL** or your web browser and internet services like websites and software-as-a-service (SaaS) platforms, a proxy server can potentially make your internet more private and secure. Here's how to set up **ArrowDL** so you can use a proxy server to your advantage. 
 
+<!--more-->
 
 ## What is a proxy server 
 
@@ -64,10 +64,3 @@ LibTorrent uses a separate settings storage, then to enable proxying with torren
 - [Proxy server](https://en.wikipedia.org/wiki/Proxy_server) definition on Wikipedia
 - Qt5 [Proxy Documentation](https://doc.qt.io/qt-5/qnetworkproxy.html)
 - LibTorrent [Proxy Documentation](https://www.libtorrent.org/features.html)
-
-
----
-
-The introduction of this article is largely inspired by [a post from the Avast blog](https://www.avast.com/c-how-to-set-up-a-proxy)
-
-

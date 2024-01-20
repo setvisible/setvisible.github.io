@@ -1,7 +1,6 @@
 ---
-layout: post
 title: "Translations"
-date:   2021-04-24 10:11:51 +0100
+date: 2021-04-24 10:11:51 +0100
 categories:
   - Translations
 tags:
@@ -10,13 +9,14 @@ tags:
   - internationalization
   - i18n
   - localization
-excerpt_separator:  <!--more-->
+excerpt_separator: <!--more-->
 ---
 
 ## New translation: Italian
 
 **ArrowDL** is now available in **Italian** (thanks to @Bovirus).
 
+<!--more-->
 
 ## Windows installer translations
 
@@ -43,6 +43,3 @@ If you think they are poor, don't hesitate to contribute.
 To contribute, please look at the [translation project page](https://www.transifex.com/arrowdl/arrowdl/) on Transifex.
 
 To add a new language, just open an [issue on Github](https://github.com/setvisible/ArrowDL/issues).
-
-
----

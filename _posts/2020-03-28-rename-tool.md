@@ -1,14 +1,17 @@
 ---
-layout: post
 title: "Rename Tool"
-date:   2020-03-28 13:01:23 +0100
+date: 2020-03-28 13:01:23 +0100
+categories:
+  - Tips
 tags:
   - rename
   - tool
-excerpt_separator:  <!--more-->
+excerpt_separator: <!--more-->
 ---
 
 *ArrowDL* version 1.7.4 provides a tool to rename a list of downloads.
+
+<!--more-->
 
 Select several downloads in the queue. Click "Rename File" (context menu) or F2:
 
@@ -22,4 +25,4 @@ The result after an enumeration renaming:
 
 ![Rename Tool 03](/assets/images/1.7/rename_tool_03.png)
 
-Voila.
+Znjoy!

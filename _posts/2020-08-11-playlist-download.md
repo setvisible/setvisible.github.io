@@ -1,24 +1,24 @@
 ---
-layout: post
 title: "Introducing playlist downloads"
-date:   2020-08-11 21:21:21 +0100
+date: 2020-08-11 21:21:21 +0100
 categories:
   - Tips
 tags:
   - stream
   - playlist
   - video 
-excerpt_separator:  <!--more-->
+excerpt_separator: <!--more-->
 ---
 
 **ArrowDL** can now **download playlists** from Youtube and other video stream sites.
 
 To do so, use the same Wizard as usual:
 
-Click **File** > **Download Streams...**
-    
-    
+- Click **File** > **Download Streams...**
+
 The wizard will detect if the URL refers to a single video stream or a playlist. 
+
+<!--more-->
 
 ## Playlist streams
 
@@ -35,6 +35,5 @@ Click **Start!** when ready.
 The result:
 
 ![Downloading the playlist](/assets/images/2.0/playlist_dialog_02.png)
-
 
 Note: this is a preliminary wizard window. It might change in the near future.

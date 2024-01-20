@@ -1,7 +1,6 @@
 ---
-layout: post
 title: "Download Urls: copy-paste a list of URLs to download"
-date:   2021-04-30 18:23:11 +0100
+date: 2021-04-30 18:23:11 +0100
 categories:
   - Urls
 tags:
@@ -9,7 +8,7 @@ tags:
   - copy-paste
   - batch
   - edit
-excerpt_separator:  <!--more-->
+excerpt_separator: <!--more-->
 ---
 
 ## New Feature: Download Urls
@@ -20,6 +19,7 @@ From now on, **ArrowDL** can download a list of Urls.
 
 Just copy-paste the list of URLs to download in the dialog:
 
+<!--more-->
 
 ![New Feature: Urls download](/assets/images/2.3/urls_download_01.png)
 
@@ -38,6 +38,3 @@ Note that:
 
 
 Last but not the least, do not hesitate to compliment the icon ![Icon](/assets/images/2.3/paste_48x48.png) (I did it myself with [Paint.NET](https://www.getpaint.net/)...).
-
-
----

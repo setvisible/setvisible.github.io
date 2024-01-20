@@ -1,21 +1,24 @@
 ---
-layout: post
 title: Introducing ArrowDL
-date:   2019-11-16 19:06:30 +0100
+date: 2019-11-16 19:06:30 +0100
+categories:
+  - Releases
 tags:
   - update
   - introducing
-excerpt_separator:  <!--more-->
+excerpt_separator: <!--more-->
 ---
 
 *ArrowDL* is a rewrite of the legacy software [DownThemAll!](https://en.wikipedia.org/wiki/DownThemAll! "https://en.wikipedia.org/wiki/DownThemAll!") which was an extension for Mozilla Firefox, but whose development stopped around 2016, when Mozilla Firefox migrated to WebExtensions.
 
 *ArrowDL* is a standalone download manager for Windows, Mac OS X and Linux. 
 
+
 It aims to work with latest versions of Mozilla Firefox (powered by *WebExtensions*), and other web browsers (Chrome, Edge, Safari...). 
 
-*ArrowDL* is written in C++ and based on the [Qt5](https://www.qt.io/ "https://www.qt.io/") framework.
+<!--more-->
 
+*ArrowDL* is written in C++ and based on the [Qt5](https://www.qt.io/ "https://www.qt.io/") framework.
 
 ## Goals
 

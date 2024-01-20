@@ -1,7 +1,6 @@
 ---
-layout: post
 title: "Torrent Widget Enhanced"
-date:   2020-10-05 20:56:11 +0100
+date: 2020-10-05 20:56:11 +0100
 categories:
   - Tips
 tags:
@@ -9,10 +8,9 @@ tags:
   - torrent
   - magnet
   - improvement
-excerpt_separator:  <!--more-->
+introduction: An Enhancement of the Torrent Widget
+excerpt_separator: <!--more-->
 ---
-
-## Torrent Widget Enhanced
 
 The **torrent widget** (which appears when you download a *.torrent* file or *magnet link*) has been improved.
 
@@ -26,6 +24,8 @@ The tab keeps the former connections in *italic*, you can filter them through th
 
 The *Piece Map* tab now shows the **piece map** of the torrent. 
 
+<!--more-->
+
 ![Torrent Improved](/assets/images/2.1/torrent_01.png)
 
 - Funkier **Peer Flags** and **available pieces**:
@@ -35,4 +35,3 @@ The *Piece Map* tab now shows the **piece map** of the torrent.
 - New **Piece Map**:
 
 ![Piece Map](/assets/images/2.1/torrent_03.png)
-

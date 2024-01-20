@@ -1,13 +1,14 @@
 ---
-layout: post
 title: "Major Upgrade Announcement"
-date:   2022-12-31 16:15:12 +0100
+date: 2022-12-31 16:15:12 +0100
+categories:
+  - Developer
 tags:
   - qt
   - deployment
   - build
   - project
-excerpt_separator:  <!--more-->
+excerpt_separator: <!--more-->
 ---
 
 ## Major Upgrade Announcement
@@ -18,6 +19,7 @@ The final phase of this refactoring was the move of the deployment process to th
 
 Thus, the *ArrowDL* of 2023 will be better than 2022. It deserves a "version 3.x" to introduces this new era.
 
+<!--more-->
 
 ### Introducing Qt6
 
@@ -59,4 +61,3 @@ Thanks to these upgrades in 2022, 2023 looks brighter!
 C++20 offers more simplification and abstraction, Qt6 offers better widgets, and LibTorrent-Rasterbar offers better functions. *ArrowDL* will be improved a lot, for sure :)
 
 Happy New Year 2023! :)
-

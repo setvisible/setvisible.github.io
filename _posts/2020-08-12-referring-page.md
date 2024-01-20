@@ -1,17 +1,18 @@
 ---
-layout: post
 title: "Referring Page"
-date:   2020-08-11 21:21:21 +0100
+date: 2020-08-11 21:21:21 +0100
 categories:
   - Tips
 tags:
   - referring page
   - referer
   - privacy
-excerpt_separator:  <!--more-->
+excerpt_separator: <!--more-->
 ---
 
 **ArrowDL** offers a new feature: *Referring Page*.
+
+<!--more-->
 
 *Wikipedia says:*
 
@@ -37,6 +38,3 @@ Note that you can change or remove this default page for each download. Look at 
 ### Further reading
 
 ^[1]: [HTTP Referer](https://en.wikipedia.org/wiki/HTTP_referer) definition on Wikipedia
-
-
-

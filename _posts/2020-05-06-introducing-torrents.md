@@ -1,20 +1,22 @@
 ---
-layout: post
 title: "Introducing Torrents"
-date:   2020-05-06 21:23:24 +0100
+date: 2020-05-06 21:23:24 +0100
+categories:
+  - Tips
 tags:
   - introducing
   - torrent
   - magnet
   - peer-to-peer
-excerpt_separator:  <!--more-->
+introduction: Introducing Magnet Links and Torrents download
+excerpt_separator: <!--more-->
 ---
-
-## Introducing Magnet Links and Torrents download
 
 *ArrowDL* version 2.0.0 is now able to download .torrent files.
 
-### Why a torrent manager?
+<!--more-->
+
+## Why a torrent manager?
 
 After implementing a web page content crawler, then a kind of RegExp downloader for batch file downloading, and recently a video streaming downloader, why not adding a new feature in order to download peer-to-peer things like torrents?
 
@@ -25,7 +27,7 @@ Indeed, good torrent downloaders have a problem: they are mostly shareware / clo
 In the FOS (free and open-source) world, there are not tons of choices. So ArrowDL is a new way to **enjoy torrents again**. The technology behind the peer-to-peer concept is very exciting to explore, and open so many opportunities.
 
 
-### How it 's made
+## How it 's made
 
 *ArrowDL* uses the library *libtorrent*, a free and open-source library by Arvid Norberg to download magnet links and .torrent files.
 
@@ -54,4 +56,3 @@ See pictures below to know how to use it:
 Torrent settings are customizable:
 
 ![Download torrents](/assets/images/2.0/torrent_prefs.png)
-
