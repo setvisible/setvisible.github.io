@@ -1,0 +1,64 @@
+# ArrowDL - Jekyll Theme
+# 
+lang: en-US
+title: ArrowDL
+email:
+description: "Mass downloader for your browser"
+baseurl:
+url: https://www.arrow-dl.com
+author:
+  name: SetVisible!=0
+  url: https://www.arrow-dl.com
+  twitter:
+  picture:
+twitter_username: ArrowDLApp
+github_username: setvisible
+logo: "/assets/icons/logo.svg"
+search: true
+search_full_content: true # false: only the first 50 words of a post is added to the search index. true: all the words are added.
+search_provider: lunr
+
+# Exclude these files from production site
+exclude:
+  - CHANGELOG.md
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - README.md
+  - assets/images/_original/
+  - docs/
+
+# Liquid
+liquid:
+  error_mode: strict
+
+# Build settings
+markdown: kramdown
+theme:
+plugins: # previously gems
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag # Add metadata for search engines and social networks
+  - jekyll-sitemap
+feed:
+  path: atom.xml
+
+# Pagination - https://jekyllrb.com/docs/pagination/
+paginate: 5
+paginate_path: /blog/page:num/
+
+# Collections
+collections:
+  recipes:
+    output: true
+    permalink: /:collection/:path/
+
+# Front Matter Defaults
+defaults:
+  # _posts
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: post
+      read_time: true
