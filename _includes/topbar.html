@@ -1,6 +1,12 @@
 <div class="sidebar-toggle-wrapper">
 
   <ul class="topbar-list">
+    <li>
+      <a href="{{ 'blog' | relative_url }}" itemprop="url">
+        <span itemprop="name">Blog</span>
+      </a>
+    </li>
+
     <!-- site.pages links -->
     {% assign default_paths = site.pages | map: "path" %}
     {% assign page_paths = site.data.theme.topbar_pages | default: default_paths %}

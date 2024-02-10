@@ -2,30 +2,94 @@
 layout: default
 ---
 
-{% include page-intro.html %}
+<header class="intro">
+  <div class="intro-image">
+    <img src="/assets/images/arrows.jpg" alt="ArrowDL">
+  </div>
+
+  <div class="inner">
+    <div class="intro-text">
+      <h1 id="page-title" class="intro-title">
+        ArrowDL
+      </h1>
+      <p class="intro-subtitle">
+        Mass downloader for your browser
+      </p>
+
+      <ul class="intro-actions">
+        <li>
+          <a href="https://github.com/setvisible/ArrowDL/" class="btn">
+            <span class="icon">
+              {% include icons/github.svg %}
+            </span>
+            Get Started
+          </a>
+        </li>
+        <li>
+          <a href="/download/" class="btn">
+            <span class="icon">
+              {% include icons/download.svg %}
+            </span>
+            Download
+          </a>
+        </li>
+      </ul>
+
+      <div class="intro-more">
+        <p>
+          ArrowDL is a Free &amp; Open-source software that helps you to download all links,
+          pictures, videos from Youtube <a href="#footnote-1">[1]</a>
+          and other video sites, — Peer-to-peer — BitTorrent files <a href="#footnote-2">[2]</a>,
+          and other media you find on the Web.
+        </p>
+
+        <p>
+          It’s called a <strong>“mass” download manager</strong>,
+          because it helps you to select, organize, prioritize and run your downloads in parallel:
+        </p>
+
+        <ul>
+          <li>Collect images, music, documents, files</li>
+          <li>Download Youtube <a href="#footnote-1">[1]</a> — and other video sites</li>
+          <li>Peer-to-peer BitTorrent <a href="#footnote-2">[2]</a></li>
+          <li>Manage and prioritize the queue</li>
+          <li>Stop, pause, resume downloads</li>
+          <li>Recreate the same sub-directories as the web page</li>
+          <li>Batch Rename, Open and Move downloaded items</li>
+        </ul>
+
+        <p>
+          You can find the source code for this application at:
+          {% include icons/github.html username="setvisible" %}/<a href="https://github.com/setvisible/ArrowDL">ArrowDL</a>
+        </p>
+
+        <p>
+          <a href="/about/" class="more-link">
+            Read more
+            <span class="icon icon--arrow-right">
+              {% include icons/arrow-right.svg %}
+            </span>
+          </a>
+        </p>
+
+      </div>
+    </div>
+  </div>
+</header>
 
 <main id="main" class="page-content" aria-label="Content">
   <div class="index inner">
     <div>{{ content }}</div>
-
-    {% if site.posts.size > 0 %}
-      <div>
-        <header class="section-title">
-          <h2>
-            Posts
-            {% if paginator.page > 1 %}
-            Page - {{ paginator.page }} of {{ paginator.total_pages }}
-            {% endif %}
-          </h2>
-        </header>
-        <div class="entries-{{ page.entries_layout | default: 'list' }}">
-          {% if site.plugins contains 'jekyll-paginate' and page.paginate or site.gems contains 'jekyll-paginate' and page.paginate %}
-          {% include posts-paginated.html %}
-          {% else %}
-          {% include posts-all.html %}
-          {% endif %}
-        </div>
-      </div>    
-    {% endif %}
   </div>
 </main>
+
+<div class="intro">
+  <div class="inner">
+    <div id="footnote-1">
+      [1] <a href="https://en.wikipedia.org/wiki/YouTube">en.wikipedia.org/wiki/YouTube</a>
+    </div>
+    <div id="footnote-2">
+      [2] <a href="https://en.wikipedia.org/wiki/BitTorrent">en.wikipedia.org/wiki/BitTorrent</a>
+    </div>
+  </div>
+</div>
