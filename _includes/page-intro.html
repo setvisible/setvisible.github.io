@@ -1,0 +1,47 @@
+<header class="intro">
+  {% assign intro_image = page.image.path | default: page.image | default: '/assets/images/arrows-small.jpg' | relative_url | escape %}
+  <div class="intro-image">
+    <img src="{{ intro_image }}" alt="{{ page.title }}">
+  </div>
+
+  <div class="inner">
+    <div class="intro-text">
+      <h1 id="page-title" class="intro-title">
+        {{ page.title | default: site.title | markdownify | strip_html }}
+      </h1>
+      {% if page.sub_title %}
+        <p class="intro-subtitle">{{ page.sub_title | markdownify | strip_html }}</p>
+      {% endif %}
+
+      {% if page.date %}
+        {% include author %}
+        <p class="entry-meta">
+          {% if author_name %}
+          <span class="byline-item">
+            By {{ author_name }}
+          </span>
+          {% endif %}
+          <span class="byline-item">
+            <span class="icon">
+              {% include icons/calendar.svg %}
+            </span>
+            <time datetime="{{ page.date | date_to_xmlschema }}">
+              {{ page.date | date: "%B %-d, %Y" }}
+            </time>
+          </span>
+          {% if page.read_time %}
+          <span class="byline-item">
+            <span class="icon">
+              {% include icons/stopwatch.svg %}
+            </span>
+            {% capture read_time %}
+            {% include read-time.html %}
+            {% endcapture %}
+            {{ read_time | strip }}
+          </span>
+          {% endif %}
+        </p>
+      {% endif %}
+    </div>
+  </div>
+</header>
