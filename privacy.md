@@ -58,5 +58,5 @@ You are advised to review this Privacy Policy periodically for any changes. Chan
 ## Contact Us
 
 If you have any questions about this Privacy Policy, You can contact us:
-- By starting a discussion on {% include icons/github.html username="setvisible" %}/[ArrowDL > issues](https://github.com/setvisible/ArrowDL/issues/)
-- By contacting the author {% include icons/github.html username="setvisible" %}
+- By starting a discussion on {% include icons/github.html username=site.github_username %}/[ArrowDL > issues](https://github.com/setvisible/ArrowDL/issues/)
+- By contacting the author {% include icons/github.html username=site.github_username %}
