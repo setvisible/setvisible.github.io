@@ -5,7 +5,7 @@ title: About
 ---
 
 You can read the full documentation at:
-{% include icons/github.html username=site.github_username %}/[ArrowDL](https://github.com/setvisible/ArrowDL)
+{% include brands/github.html username=site.github_username %}/[ArrowDL](https://github.com/setvisible/ArrowDL)
 
 ## How it works?
 
@@ -29,4 +29,4 @@ so we could implement all the features we imagine.
 Hope you like this extension.
 
 You can find contact and support for this application at:
-{% include icons/github.html username=site.github_username %}/[ArrowDL](https://github.com/setvisible/ArrowDL)
+{% include brands/github.html username=site.github_username %}/[ArrowDL](https://github.com/setvisible/ArrowDL)
