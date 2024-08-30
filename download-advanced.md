@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: page
 permalink: /download/advanced/
 title: Advanced Setup
 ---
