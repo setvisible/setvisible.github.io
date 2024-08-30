@@ -6,11 +6,13 @@ email:
 description: "Mass downloader for your browser"
 baseurl:
 url: https://www.arrow-dl.com
+
 author:
   name: SetVisible!=0
   url: https://www.arrow-dl.com
   twitter:
-  picture:
+  picture: "/assets/icons/about.png"
+
 twitter_username: ArrowDLApp
 github_username: setvisible
 logo: "/assets/icons/logo.svg"
