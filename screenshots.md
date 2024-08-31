@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: page
 permalink: /screenshots/
 title: Screenshots
 ---
