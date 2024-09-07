@@ -16,6 +16,7 @@ topbar_pages:
   - tutorial.md
 
 navigation_pages:
+  - download.md
   - posts.md
   - tags.md
   - categories.md
