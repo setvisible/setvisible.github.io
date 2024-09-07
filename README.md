@@ -37,4 +37,4 @@ https://github.com/mmistakes/jekyll-theme-basically-basic
 
 ## License
 
-The code is released under the GNU [Lesser General Public License (LGPL)](LICENSE "LICENSE").
+The code is released under the GNU [Lesser General Public License (LGPL)](LICENSE.md "LICENSE").
